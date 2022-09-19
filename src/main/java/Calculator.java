@@ -1,22 +1,22 @@
 
 import java.util.Scanner;
-
+import java.lang.Exception;
 
 public class Calculator {
-    public int plus(int firstValue, int secondValue) {
+    public int plus(int firstValue, int secondValue) throws Exception{
         return firstValue + secondValue;
     }
 
-    public int minus(int firstValue, int secondValue) {
+    public int minus(int firstValue, int secondValue) throws Exception{
         return firstValue - secondValue;
     }
 
-    public int multiply(int firstValue, int secondValue) {
+    public int multiply(int firstValue, int secondValue) throws Exception{
         return firstValue * secondValue;
     }
 
-    public int divide(int firstValue, int secondValue) {
-        return firstValue / secondValue;
+    public int divide(int firstValue, int secondValue) throws Exception {
+                return firstValue / secondValue;
     }
 
 
